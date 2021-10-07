@@ -1,0 +1,18 @@
+
+<suite name="Grid">
+  <test name="firefox">
+  <parameter name="Br" value="firefox"/>
+  <parameter name="pt" value="windows"/>
+    <classes>
+      <class name="grid.GridEg2"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="chrome">
+  <parameter name="Br" value="Chrome"/>
+  <parameter name="pt" value="windows"/>
+    <classes>
+      <class name="grid.GridEg2"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+</suite> <!-- Suite -->

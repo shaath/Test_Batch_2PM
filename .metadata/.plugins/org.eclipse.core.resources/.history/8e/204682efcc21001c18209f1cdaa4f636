@@ -1,0 +1,25 @@
+package testNG;
+
+import org.openqa.selenium.By;
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.beust.jcommander.Parameter;
+
+import methods.OrgHRM_Master;
+
+public class EmpRegTC_TestNG_CrossBr{
+	@Parameters({"Br"})
+	@Test
+	public void org_EmpReg(String br)
+	{
+		OrgHRM_Master om = new OrgHRM_Master();
+		om.org_Launch(br, om.url);
+		
+		om.org_Login(om.u, om.p);
+		om.org_EmpReg("Shushma", "Ch", "SCH3764");
+	}
+	
+}

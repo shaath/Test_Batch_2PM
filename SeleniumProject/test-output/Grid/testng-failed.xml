@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Grid]">
+  <parameter name="Br" value="Chrome"/>
+  <parameter name="pt" value="windows"/>
+  <test name="firefox(failed)">
+    <parameter name="Br" value="firefox"/>
+    <parameter name="pt" value="windows"/>
+    <classes>
+      <class name="grid.GridEg2">
+        <methods>
+          <include name="grod_test"/>
+        </methods>
+      </class> <!-- grid.GridEg2 -->
+    </classes>
+  </test> <!-- firefox(failed) -->
+  <test name="chrome(failed)">
+    <parameter name="Br" value="Chrome"/>
+    <parameter name="pt" value="windows"/>
+    <classes>
+      <class name="grid.GridEg2">
+        <methods>
+          <include name="grod_test"/>
+        </methods>
+      </class> <!-- grid.GridEg2 -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+</suite> <!-- Failed suite [Grid] -->

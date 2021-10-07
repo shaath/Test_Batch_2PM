@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="Br" value="edge"/>
+  <parameter name="eid" value="SCH74278"/>
+  <test name="chrome(failed)" parallel="tests">
+    <parameter name="Br" value="Chrome"/>
+    <parameter name="eid" value="SCH74256"/>
+    <classes>
+      <class name="testNG.EmpRegTC_TestNG_CrossBr">
+        <methods>
+          <include name="org_EmpReg" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNG.EmpRegTC_TestNG_CrossBr -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+  <test name="edge(failed)" parallel="tests">
+    <parameter name="Br" value="edge"/>
+    <parameter name="eid" value="SCH74278"/>
+    <classes>
+      <class name="testNG.EmpRegTC_TestNG_CrossBr">
+        <methods>
+          <include name="org_EmpReg" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNG.EmpRegTC_TestNG_CrossBr -->
+    </classes>
+  </test> <!-- edge(failed) -->
+</suite> <!-- Failed suite [Suite] -->

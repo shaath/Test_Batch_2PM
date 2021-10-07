@@ -1,0 +1,24 @@
+
+<suite name="Suite" parallel="Tests">
+  <test name="chrome">
+  <parameter name="Br" value="Chrome"/>
+  <parameter name="eid" value="SCH7435"/>
+    <classes>
+      <class name="testNG.EmpRegTC_TestNG_CrossBr"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="firefox">
+  <parameter name="Br" value="firefox"/>
+   <parameter name="eid" value="SCH7436"/>
+    <classes>
+      <class name="testNG.EmpRegTC_TestNG_CrossBr"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="edge">
+  <parameter name="Br" value="edge"/>
+   <parameter name="eid" value="SCH7437"/>
+    <classes>
+      <class name="testNG.EmpRegTC_TestNG_CrossBr"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

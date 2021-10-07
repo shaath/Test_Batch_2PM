@@ -1,0 +1,9 @@
+
+<suite name="Suite">
+  <test name="chrome">
+  <parameter name="Br" value="Chrome"/>
+    <classes>
+      <class name="testNG.EmpRegTC_TestNG_CrossBr"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

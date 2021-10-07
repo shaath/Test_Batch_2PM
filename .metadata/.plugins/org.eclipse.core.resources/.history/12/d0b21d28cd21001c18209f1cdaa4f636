@@ -1,0 +1,21 @@
+
+<suite name="Suite">
+  <test name="chrome">
+  <parameter name="Br" value="Chrome"/>
+    <classes>
+      <class name="testNG.EmpRegTC_TestNG_CrossBr"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="firefox">
+  <parameter name="Br" value="firefox"/>
+    <classes>
+      <class name="testNG.EmpRegTC_TestNG_CrossBr"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="ie">
+  <parameter name="Br" value="ie"/>
+    <classes>
+      <class name="testNG.EmpRegTC_TestNG_CrossBr"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
